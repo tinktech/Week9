@@ -108,12 +108,14 @@ class Game {
   
   
   showMainMenuOptions() { // main warGame prompts
-    return prompt(`0) Exit
+    return prompt(`Welcome to the card game, War!
+0) Exit
 1) Start a new game?`);
   }
   
   showGameMenu() { // player warGame prompts
-    return prompt(`1) Shuffle deck and play game`);
+    return prompt(`War!:
+1) Shuffle deck and play game`);
   }
   
   
